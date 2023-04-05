@@ -1,6 +1,6 @@
 #!/bin/bash
 # Play music from directory
-mpv --shuffle "/media/asr/Gamma Discos/Listen em/Youtube-dl/Youtube-songs" &
+mpv --shuffle "./Youtube-songs" &
 
 # Save the process ID of mpv
 mpv_pid=$!
